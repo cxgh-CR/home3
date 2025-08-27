@@ -1,0 +1,46 @@
+.container {
+    display: grid;
+    gap: 10px;
+}
+
+span {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    background-color: yellow;
+}
+
+.header,
+.footer {
+    height: 50px;
+}
+
+.double {
+    display: flex;
+    gap: 5%;
+}
+
+.sidebar {
+    width: 30%;
+
+    background-color: blue;
+
+}
+
+.welcome {
+    background-color:aquamarine;
+    width: 70%;
+}
+
+
+.footer {
+    background-color: orange;
+    display: flex;
+    align-items:center;
+    padding-left: 20px;
+}
